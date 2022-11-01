@@ -19,6 +19,7 @@ pipeline {
             {
               //sh "mvn test"
               echo "Running unit tests"
+              echo "made changes"
             }
       }
       stage('Deploy') 
